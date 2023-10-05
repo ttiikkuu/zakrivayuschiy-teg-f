@@ -4,3 +4,71 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-light {
+    --inter-variable: Inter-Variable, sans-serif;
+    --press-start2P-regular: PressStart2P-Regular, sans-serif;
+    --text-weight: 400;
+    --headline-weight: 700;
+    --background-color: #fff;
+    --accent-color: #000;
+    --background-image:
+        repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, rgb(0 0 0 / 0) 2px, rgb(0 0 0 / 0) 4px),
+        repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, rgb(0 0 0 / 0) 2px, rgb(0 0 0 / 0) 4px),
+        linear-gradient(to bottom, #e7e7e7 0px 0.01%, #1a1a1a);
+    --header-width: 696px;
+    --heart-fill-accent: #f00;
+    --button-text-color: #fff;
+}
+
+:root.theme-dark {
+    --inter-variable: Inter-Variable, sans-serif;
+    --press-start2P-regular: PressStart2P-Regular, sans-serif;
+    --text-weight: 465;
+    --headline-weight: 785;
+    --background-color: #000;
+    --accent-color: #00CC14;
+    --background-image:
+        repeating-linear-gradient(to right, #000, #000 2px, rgb(0 0 0 / 0) 2px, rgb(0 0 0 / 0) 4px),
+        repeating-linear-gradient(to bottom, #000, #000 2px, rgb(0 0 0 / 0) 2px, rgb(0 0 0 / 0) 4px),
+        linear-gradient(to bottom, #007f0c 0px 0.01%, #004306);
+    --header-width: 696px;
+    --heart-fill-accent: #00CC14;
+    --button-text-color: #00CC14;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --inter-variable: Inter-Variable, sans-serif;
+        --press-start2P-regular: PressStart2P-Regular, sans-serif;
+        --text-weight: 400;
+        --headline-weight: 700;
+        --background-color: #fff;
+        --accent-color: #000;
+        --background-image:
+            repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, rgb(0 0 0 / 0) 2px, rgb(0 0 0 / 0) 4px),
+            repeating-linear-gradient(to bottom, #d3d3d3, #d3d3d3 2px, rgb(0 0 0 / 0) 2px, rgb(0 0 0 / 0) 4px),
+            linear-gradient(to bottom, #e7e7e7 0px 0.01%, #1a1a1a);
+        --header-width: 696px;
+        --heart-fill-accent: #f00;
+        --button-text-color: #fff;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --inter-variable: Inter-Variable, sans-serif;
+        --press-start2P-regular: PressStart2P-Regular, sans-serif;
+        --text-weight: 465;
+        --headline-weight: 785;
+        --background-color: #000;
+        --accent-color: #00CC14;
+        --background-image:
+            repeating-linear-gradient(to right, #000, #000 2px, rgb(0 0 0 / 0) 2px, rgb(0 0 0 / 0) 4px),
+            repeating-linear-gradient(to bottom, #000, #000 2px, rgb(0 0 0 / 0) 2px, rgb(0 0 0 / 0) 4px),
+            linear-gradient(to bottom, #007f0c 0px 0.01%, #004306);
+        --header-width: 696px;
+        --heart-fill-accent: #00CC14;
+        --button-text-color: #00CC14;
+    }
+}
