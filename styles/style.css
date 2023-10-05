@@ -249,6 +249,8 @@
   cursor: pointer;
   width: 129px;
   height: 37px;
+  display: grid;
+  align-items: center;
 }
 
 .footer__save-button {
