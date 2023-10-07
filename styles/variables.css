@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
-root {
+:root {
     --inter-variable: Inter-Variable, sans-serif;
-    --press-start2P-regular: PressStart2P-Regular, sans-serif;
+    --press-start2P-regular: PressStart2P-Regular, fantasy;
     --text-weight: 400;
     --headline-weight: 700;
     --background-color: #fff;

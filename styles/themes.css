@@ -7,7 +7,7 @@
 
 :root.theme-light {
     --inter-variable: Inter-Variable, sans-serif;
-    --press-start2P-regular: PressStart2P-Regular, sans-serif;
+    --press-start2P-regular: PressStart2P-Regular, fantasy;
     --text-weight: 400;
     --headline-weight: 700;
     --background-color: #fff;
@@ -23,7 +23,7 @@
 
 :root.theme-dark {
     --inter-variable: Inter-Variable, sans-serif;
-    --press-start2P-regular: PressStart2P-Regular, sans-serif;
+    --press-start2P-regular: PressStart2P-Regular, fantasy;
     --text-weight: 465;
     --headline-weight: 785;
     --background-color: #000;
@@ -40,7 +40,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --inter-variable: Inter-Variable, sans-serif;
-        --press-start2P-regular: PressStart2P-Regular, sans-serif;
+        --press-start2P-regular: PressStart2P-Regular, fantasy;
         --text-weight: 400;
         --headline-weight: 700;
         --background-color: #fff;
@@ -58,7 +58,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --inter-variable: Inter-Variable, sans-serif;
-        --press-start2P-regular: PressStart2P-Regular, sans-serif;
+        --press-start2P-regular: PressStart2P-Regular, fantasy;
         --text-weight: 465;
         --headline-weight: 785;
         --background-color: #000;
